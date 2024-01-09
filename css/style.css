@@ -129,13 +129,14 @@ main {
 
 /* ===============Offer section Started=============== */
 .offer-sec {
-    background: #fff9f0;
     margin: 150px 0;
     border-radius: 10px;
+    font-family: 'Inter', sans-serif;
 }
 
+/* ============Event-Details Section============= */
 .event-details {
-    font-family: 'Inter', sans-serif;
+    background: #fffcf7;
     color: #070211;
     font-family: Inter;
     font-size: 28px;
@@ -166,6 +167,154 @@ main {
     border-radius: 5px;
 }
 
+/* ============Best Offer Section=========== */
+.best-offer {
+    display: flex;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.best-offer-left {
+    width: 35%;
+}
+
+.best-offer-left h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.best-offer-left h2 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.p-text {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 15px 0;
+}
+
+.best-offer-mid {
+    width: 30%;
+    border: 10px solid #F00;
+    border-radius: 50%;
+    padding: 10px 20px 10px 15px;
+    margin: 0 25px;
+}
+
+.best-offer-mid img {
+    width: 100%;
+    padding: 5px;
+}
+
+.best-offer-right {
+    width: 35%;
+}
+
+.best-offer-right h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+/* ===============Discount-Bottom section=============== */
+.discount-bottom-text {
+    text-align: center;
+}
+
+.discount-bottom-text h3 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.discount-bottom-text h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 60px;
+    font-weight: 900;
+    padding: 20px 0;
+}
+
+.discount-bottom-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 150px;
+}
+
 /* ===============Offer section Ended=============== */
+
+/* ===============Best Gift section Started=============== */
+.gift-text h4 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.gift-text h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 900;
+    padding: 10px 0;
+}
+
+.gift-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.gift-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-img {
+    width: 385px;
+    margin: 20px 0;
+}
+
+.blog-img img {
+    width: 100%;
+}
+
+/* ===============Best Gift section Ended=============== */
+
+/* ===============Newsletter section Started=============== */
+.newsletter {
+    border-radius: 15px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 100px 0;
+}
+
+.newsletter-container {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.newsletter-container h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    padding: 20px 0;
+}
+
+.newsletter p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 80px;
+}
+
+/* ===============Newsletter section Ended=============== */
 
 /* ===============Main section ended=============== */
