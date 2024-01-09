@@ -318,3 +318,39 @@ main {
 /* ===============Newsletter section Ended=============== */
 
 /* ===============Main section ended=============== */
+
+/* ===============Footer section Started=============== */
+footer {
+    background: #070211;
+    color: white;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.address p,
+.phone-email p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 0;
+}
+
+.phone-email a {
+    text-decoration: none;
+    color: white;
+}
+
+.fa-solid {
+    padding: 0 10px;
+}
+
+hr {
+    background: rgba(255, 255, 255, 0.15);
+    margin: 50px 0;
+}
+
+/* ===============Footer section Ended=============== */
