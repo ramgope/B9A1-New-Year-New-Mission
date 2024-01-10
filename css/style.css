@@ -320,6 +320,13 @@ main {
 .blog-img {
     width: 385px;
     margin: 20px 0;
+    transition: all linear 0.5s;
+}
+
+.blog-img:hover {
+    border: 2px solid red;
+    border-radius: 5px;
+    margin-top: 0px;
 }
 
 .blog-img img {
@@ -354,6 +361,26 @@ main {
     font-size: 18px;
     font-weight: 400;
     padding: 0 80px;
+}
+
+.form-sec {
+    margin-top: 40px;
+}
+
+input {
+    border: none;
+}
+
+#email {
+    padding: 10px 50px;
+    border-radius: 20px 0 0 20px;
+}
+
+#submit {
+    background: #FF0000;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 0 20px 20px 0;
 }
 
 /* ===============Newsletter section Ended=============== */
