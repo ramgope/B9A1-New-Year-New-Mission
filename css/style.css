@@ -129,7 +129,7 @@ main {
 
 /* ===============Offer section Started=============== */
 .offer-sec {
-    margin: 150px 0;
+    margin: 100px 0 100px 0;
     border-radius: 10px;
     font-family: 'Inter', sans-serif;
 }
@@ -247,6 +247,47 @@ main {
     padding: 0 150px;
 }
 
+.discount-bottom-images {
+    margin-top: 50px;
+}
+
+.top-img {
+    display: flex;
+    gap: 150px;
+    position: absolute;
+}
+
+.img-1 {
+    width: 650px;
+}
+
+.img-1 img {
+    width: 100%;
+}
+
+.img-2 {
+    width: 400px;
+}
+
+.img-2 img {
+    width: 100%;
+}
+
+.img-3 {
+    position: relative;
+    left: 650px;
+    top: 40px;
+}
+
+.img-4 {
+    width: inherit;
+    margin-top: 93px;
+}
+
+.img-4 img {
+    width: 100%;
+}
+
 /* ===============Offer section Ended=============== */
 
 /* ===============Best Gift section Started=============== */
@@ -326,20 +367,24 @@ footer {
 }
 
 .contact-details {
+    width: 800px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding-top: 50px;
+    margin: auto;
 }
 
 .address p,
-.phone-email p {
+.phone-email p,
+.footer-bottom p {
     font-family: Inter;
     font-size: 16px;
     font-weight: 500;
     padding: 5px 0;
 }
 
-.phone-email a {
+.phone-email a,
+.unsubscribe a {
     text-decoration: none;
     color: white;
 }
@@ -349,8 +394,37 @@ footer {
 }
 
 hr {
+    width: 850px;
     background: rgba(255, 255, 255, 0.15);
-    margin: 50px 0;
+    margin: 30px auto;
+}
+
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.social-media-icons a {
+    text-decoration: none;
+}
+
+.social-media-icons img {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-bottom {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.unsubscribe {
+    border: none;
+    background: none;
 }
 
 /* ===============Footer section Ended=============== */
