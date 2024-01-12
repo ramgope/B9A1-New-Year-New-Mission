@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 /* ===============Header section started=============== */
@@ -8,7 +9,7 @@
 header {
     background-image: url(../images/Banner\ Image.png);
     width: 1200px;
-    height: 550px;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -74,6 +75,10 @@ main {
     padding: 20px 0;
 }
 
+.discount-container img {
+    width: 100%;
+}
+
 /* ===============Discount-Top section ended=============== */
 
 /* ===============Welcome section Started=============== */
@@ -122,6 +127,7 @@ main {
 
 .welcome-right {
     width: 45%;
+    height: 100%;
     margin-top: 50px;
 }
 
@@ -155,7 +161,7 @@ main {
 .event-btn {
     background: none;
     border: 0;
-    margin: 50px 0;
+    margin-top: 50px;
 }
 
 .event-btn a {
@@ -220,6 +226,10 @@ main {
 }
 
 /* ===============Discount-Bottom section=============== */
+.discount-bottom {
+    width: 100%;
+}
+
 .discount-bottom-text {
     text-align: center;
 }
